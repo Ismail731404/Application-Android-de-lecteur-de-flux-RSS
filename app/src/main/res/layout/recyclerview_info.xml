@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        >
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                style="@string/Flux_title"
+                android:id="@+id/Tag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blackColor"
+                android:maxLines="2"
+                android:ellipsize="end"
+
+                />
+            <TextView
+                android:id="@+id/Url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:ellipsize="end"
+                />
+
+            <TextView
+                android:id="@+id/Source"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/blackColor"
+                android:maxLines="1"
+                android:ellipsize="end"
+                />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView >

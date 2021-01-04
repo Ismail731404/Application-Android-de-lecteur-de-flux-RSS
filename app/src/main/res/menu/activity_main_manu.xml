@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    app:showAsAction= "never" | "ifRoom" | "always" | "withText" | "collapseActionView"
+
+
+   <item
+      android:id="@+id/action_Info"
+      android:icon="@drawable/ic_baseline_info_24"
+      android:title="Info"
+       android:background="@color/colorAccent"
+      app:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_ajouter"
+        android:title="Ajouter"
+        android:icon="@drawable/ic_baseline_add_24"
+        android:background="@color/colorAccent"
+        app:showAsAction="ifRoom"/>
+
+</menu>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lecteur de Flux</string>
+    <string name="Flux_title" />
+
+    <string name="Tag">Tag...</string>
+    <string name="Url">Url...</string>
+    <string name="Source">Source...</string>
+    <string name="button_save">Enregistre</string>
+    <string name="empty_not_saved">Flux non enregistré car vide.</string>
+    <string name="add_flux">Ajoute flux</string>
+</resources>
